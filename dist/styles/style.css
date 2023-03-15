@@ -120,3 +120,22 @@ p.food-desc{
     display:flex;
     justify-content: space-between;
 }
+
+.menu{
+    display:flex;
+    flex-direction: column;
+}
+
+.menu-title{
+    margin:32px;
+    width: min(140vw,1800px);
+    align-self: center;
+}
+.food-list-container{
+    display:flex;
+    align-self: center;
+    flex-wrap: wrap;
+    gap:32px;
+    height:468px;
+    width: min(140vw,1800px);
+}

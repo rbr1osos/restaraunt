@@ -13,7 +13,11 @@ menu.appendChild(title)
 const item_container = document.createElement('div')
 item_container.classList.add('item-container')
 
+//create food item container
+const food_container = document.createElement('div')
+food_container.classList.add('food-list-container')
 
+for (let i=0; i<8;i++){
 //create item
 const food1 = document.createElement('div')
 food1.classList.add('food-item')
@@ -44,7 +48,9 @@ food_desc.innerHTML='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ma
 
 food1.appendChild(food_listing);
 food1.appendChild(food_desc);
-menu.appendChild(food1)
+food_container.appendChild(food1);
+menu.appendChild(food_container)
+}
 
 return menu;
 }
