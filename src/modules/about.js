@@ -6,7 +6,7 @@ about.classList.add('about')
 //create 'left side' container
 const left_about = document.createElement('img');
 left_about.classList.add('chef-image');
-left_about.src='../dist/images/chef.png';
+left_about.src='./images/chef.png';
 
 //create 'right side' container
 const right_about = document.createElement('div');

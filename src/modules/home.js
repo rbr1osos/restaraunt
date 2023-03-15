@@ -9,7 +9,7 @@ function createHome(){
 
     const title_h2 = document.createElement('h2');
     title_h2.classList.add('header-h2');
-    title_h2.textContent=`---CHEF'S SPECIAL`;
+    title_h2.textContent=`CHEF'S SPECIAL`;
 
     const title_h1 = document.createElement('h1');
     title_h1.classList.add('header-h1');

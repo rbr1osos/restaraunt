@@ -9,7 +9,7 @@ function createHeader(id){
     //left side --logo
     const logo = document.createElement('img')
     logo.setAttribute('id','logo');
-    logo.src= '../dist/images/logo.png';
+    logo.src= './images/logo.png';
     header.appendChild(logo);
 
     //right side --links
