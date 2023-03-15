@@ -139,3 +139,13 @@ p.food-desc{
     height:468px;
     width: min(140vw,1800px);
 }
+
+.logo-container{
+    display:flex;
+    justify-content: center;
+    gap:16px;
+}
+.social_logo{
+    width:20px;
+    height:20px;
+}
